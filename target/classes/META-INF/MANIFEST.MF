@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Built-By: abhin
+Class-Path: jsoup-1.13.1.jar
+Build-Jdk: 1.8.0_171
+Created-By: Maven Integration for Eclipse
+Main-Class: com.main.App
+

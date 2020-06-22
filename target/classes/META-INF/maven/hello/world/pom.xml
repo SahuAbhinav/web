@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>hello</groupId>
+	<artifactId>world</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<java.version>1.8</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<proguard.version>6.2.0</proguard.version>
+		<proguard.maven.plugin.version>2.2.0</proguard.maven.plugin.version>
+	</properties>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.13.1</version>
+		</dependency>
+
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<mainClass>com.main.App</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	
+	<organization>
+  	<name>Antish</name>
+  	<url>http://antish.com/</url>
+  </organization>
+  
+	 <developers>
+    <developer>
+      <id>Abhi</id>
+      <name>Abhinav Sahu</name>
+      <email>abhinav7786@gmail.com</email>
+      <roles>
+        <role>Senior Software Engineer</role>
+      </roles>
+      <timezone>+530</timezone>
+    </developer>
+  </developers>
+</project>

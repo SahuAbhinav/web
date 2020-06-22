@@ -1,0 +1,2 @@
+com.main.App
+com.main.App: void main(java.lang.String[])

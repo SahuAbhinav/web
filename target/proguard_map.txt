@@ -1,0 +1,8 @@
+com.main.App -> com.main.App:
+    void <init>() -> <init>
+    void main(java.lang.String[]) -> main
+com.main.dto.MyDTO -> com.main.a.a:
+    java.lang.String name -> a
+    void <init>() -> <init>
+    java.lang.String getName() -> a
+    void setName(java.lang.String) -> a
